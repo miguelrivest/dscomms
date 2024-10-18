@@ -5,7 +5,7 @@ let highlights = header.querySelectorAll(".highlight");
 if (!Cookies.get('seenAnimation')) {
     window.onload = fadeInHeader;
 } else {
-    words.forEach((word, index) => {
+    words.forEach((word) => {
         word.style.opacity = 1;
     });
     highlights.forEach(word => {
